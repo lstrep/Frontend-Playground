@@ -1,0 +1,127 @@
+/* styles are copied from youtube react tutorial: 
+https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d   */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #3c87ff;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 0px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* trip previews / list */
+.trip-list h2{
+  margin-left: 10px;
+}
+
+.trip-preview {
+  padding: 25px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.trip-preview:hover {
+  box-shadow: 2px 5px 5px rgba(5, 13, 84, 0.1);
+} 
+.trip-preview a{
+  text-decoration: none;
+}
+
+/* trip details page */
+.trip-details h2 {
+  font-size: 20px;
+  color: #3c87ff;
+  margin-bottom: 10px;
+}
+.trip-details div {
+  margin: 20px 0;
+}
+.trip-details button {
+  background: #3c87ff;
+  color: #fff;
+  border: 1;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new trip form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 30px;
+  color: #3c87ff;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #3c87ff;
+  color: #fff;
+  border: 2;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found h2{
+  color: #3c87ff;
+  text-align: left;
+  padding: 6px;
+}
+
+.not-found p {
+  margin-left: 0px;
+  text-decoration: none;
+  padding: 6px;
+  text-align: left;
+}
+
+.not-found a {
+  margin-left: 0px;
+  text-decoration: underline;
+  padding: 6px;
+  text-align: left;
+}
